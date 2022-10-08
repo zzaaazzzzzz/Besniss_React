@@ -1,0 +1,47 @@
+h1 {
+  margin: 40px;
+  width: 60%;
+  font-size: 36px;
+  margin-left: 200px;
+}
+.class {
+  list-style: none;
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin: auto;
+  width: 80%;
+}
+.class li {
+  margin: 30px;
+}
+p {
+  line-height: 30px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .class li {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(209, 209, 209, 0.356);
+    border-top: 2px solid #00bf81;
+    transition: all ease-in-out 0.4s;
+  }
+  .class {
+    padding: 0px;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+  }
+  .class li:hover {
+    background-color: rgb(230, 230, 230);
+    padding: 20px 35px;
+  }
+}

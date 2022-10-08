@@ -1,0 +1,66 @@
+.title {
+  font-weight: 700;
+}
+.boss {
+  position: relative;
+  display: block;
+  height: 500px;
+}
+.home h1 {
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.btnUp {
+  background-color: #00bf81;
+  position: absolute;
+  top: 420px;
+  left: 210px;
+  border: 0px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnWa {
+  background-color: #ddd;
+  position: absolute;
+  top: 420px;
+  left: 350px;
+  border: 0px;
+  padding: 8px 22px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .home h1 {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    font-weight: 800;
+  }
+  .boss {
+    position: static;
+  }
+
+  img {
+    display: none;
+  }
+  .list {
+    width: 60%;
+  }
+  .btnUp {
+    left: 80px;
+  }
+  .btnWa {
+    left: 210px;
+  }
+  a {
+    font-size: 12px;
+  }
+}

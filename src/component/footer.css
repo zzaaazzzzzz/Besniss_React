@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  background-color: rgb(40, 40, 40);
+  height: 70px;
+  color: #aaa;
+}
+.pra {
+  width: 30%;
+  margin: auto;
+  padding-top: 10px;
+}
+@media (max-width: 600px) {
+  .pra {
+    width: 70%;
+    font-size: 12px;
+  }
+}

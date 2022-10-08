@@ -1,0 +1,50 @@
+.about {
+  width: 40%;
+}
+h4 {
+  margin-left: 200px;
+  font-size: 20px;
+}
+.lis p {
+  margin-left: 200px;
+}
+.invite {
+  position: relative;
+  top: 20px;
+  background-color: #ddd;
+  padding: 50px;
+  text-align: center;
+}
+.invite h1 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.btnRe {
+  background-color: #00bf81;
+  border: 0px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #fff;
+  margin-left: 200px;
+  align-items: center;
+  display: block;
+}
+@media (max-width: 600px) {
+  .about {
+    width: 70%;
+  }
+  .lis p {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .btnRe {
+    margin: 20px auto;
+  }
+  .invite h1 {
+    width: 70%;
+  }
+}

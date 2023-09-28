@@ -7,6 +7,7 @@
 
   width: 100%;
 }
+
 .AboutUs p {
   text-align: center;
   margin: auto;
@@ -14,6 +15,7 @@
   color: rgb(73, 73, 73);
   margin-bottom: 10px;
 }
+
 .Imag {
   display: flex;
   justify-content: space-between;
@@ -35,9 +37,7 @@
   font-size: 20px;
   transition: all ease-in 0.2s;
 }
-.Icon:hover {
-  font-size: 25px;
-}
+
 
 .Imag li img {
   border-radius: 10px;
@@ -45,6 +45,11 @@
   border-top: 3px solid transparent;
   transition: all ease-in-out 0.5s;
 }
+
+.Imag li h3 {
+  text-transform: capitalize;
+}
+
 .Imag li img:hover {
   border-top: 3px solid #00bf81;
 }

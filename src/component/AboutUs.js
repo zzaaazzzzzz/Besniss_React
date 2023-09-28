@@ -20,7 +20,7 @@ const AboutUs = () => {
         <ul className="Imag">
           <li>
             <img
-              src={require("../istockphoto-1378996666-170667a.jpg")}
+              src={require("../1.png")}
               style={{
                 width: "250px",
               }}
@@ -33,7 +33,7 @@ const AboutUs = () => {
           </li>
           <li>
             <img
-              src={require("../istockphoto-1369778725-170667a.jpg")}
+              src={require("../2.png")}
               style={{
                 width: "250px",
               }}
@@ -46,7 +46,7 @@ const AboutUs = () => {
           </li>
           <li>
             <img
-              src={require("../raamin-ka-1VRzNp4TJs4-unsplash.jpg")}
+              src={require("../3.png")}
               style={{
                 width: "250px",
               }}
@@ -59,7 +59,7 @@ const AboutUs = () => {
           </li>
           <li>
             <img
-              src={require("../vahid-kanani-qiMCJHg2vTI-unsplash.jpg")}
+              src={require("../4.png")}
               style={{
                 width: "250px",
               }}

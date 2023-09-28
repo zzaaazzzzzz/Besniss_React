@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./component/Home";
 
@@ -11,14 +11,14 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <nav className="navBar">
+        <div className="navBar">
           <ul className="list">
             <li>
               {/* https://youtu.be/-t6VNZAcVJk */}
               <HashLink to="/">Home</HashLink>
             </li>
             <li>
-              <HashLink to="#pricing">Pricing Table</HashLink>
+              <HashLink to="/#pricing">Pricing Table</HashLink>
             </li>
             <li>
               <HashLink to="/about">About us</HashLink>
@@ -27,7 +27,7 @@ function App() {
               <HashLink to="#">join</HashLink>
             </li>
           </ul>
-        </nav>
+        </div>
 
         <Routes>
           <Route path="/" element={<Home />} />

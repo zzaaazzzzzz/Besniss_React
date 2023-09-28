@@ -14,20 +14,22 @@ function Home() {
             One-click <br /> soultion for your
             <br /> <span style={{ color: "#00BF81" }}> static wepsite.</span>
           </h1>
-          <img
-            src={require("../undraw_Team_collaboration_re_ow29.png")}
-            style={{
-              width: "600px",
-              margin: "20px",
-              position: " absolute ",
-              top: "100px",
-              left: "650px",
-            }}
-            alt="zazo"
-          />
-          <button className="btnUp">Uplode for Free</button>
-          <button className="btnWa">watch video</button>
+          <div className="btns">
+            <button className="btnUp">Uplode for Free</button>
+            <button className="btnWa">watch video</button>
+          </div>
         </div>
+        <img
+          src={require("../undraw_Team_collaboration_re_ow29.png")}
+          style={{
+            width: "600px",
+            margin: "20px",
+            position: " absolute ",
+            top: "100px",
+            left: "650px",
+          }}
+          alt="zazo"
+        />
       </div>
       <Section />
       <About />
